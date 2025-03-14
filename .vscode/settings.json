@@ -1,0 +1,10 @@
+{
+    "background.fullscreen": {
+        "images": [//opengameart.org/sites/default/files/simple_natural_landscape_free_pixel_art_background.png],"
+        "opacity": 0.1,
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        "random": false
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="particles-js"></div> 
+    <header>
+        <nav>
+            <div class="logo">Portfolio.</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./project.html">Project</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class=" home-content" id="home">
+            <div id="text-profile" class="intro-text">
+                <h2>Hello! my name is,</h2>
+                <h1 id="myname">Rutthanin Dongphubal</h1>
+                <h3>And I'm a <span class="typed-text">Grade 11 Student</span><span class="cursor">&nbsp;</span></h3>
+                <p>This site create by using <span class="highlight">HTML CSS and JS</span></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100074036109952"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/_phurxtn/?next=%2F"><i class="fa fa-instagram"></i></a>
+                </div>
+
+                <a href="./about.html">
+                    <button class="learnmore">Learn more</button>
+                </a>
+            </div>
+            <div class="profile-image" >
+                <img src="./images/myslef.png" alt="me">
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particle.json', function() {
+            console.log('particles.js loaded');
+        });
+    </script>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
